@@ -4,6 +4,7 @@ div {
 #content {
     margin: 0 auto;
 }
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Rye&display=swap');
 
 /* I'm trying to order the various CSS rules according to when they show up on the webpage. */
 
@@ -11,10 +12,18 @@ div {
 header {
     background-color: #0b750b;
 }
+.logo {
+    width: 80px;
+}
+#logo-link {
+    padding-top: 5px;
+}
 nav a {
     text-align: center;
     color:#ffffff;
     text-decoration: none;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #16fa16;
@@ -24,15 +33,27 @@ nav a:hover {
 /* BODY */
 body {
     background-color:  #1d6097;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+h2 {
+    margin:0;
+
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-msg h1 {
     text-align: center;
+    
 } 
 #hero-msg h4 {
     text-align: center;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
 }
 #hero-img {
     width: 100%;
@@ -40,18 +61,36 @@ body {
 .home-title {
     background-color: #0b750b;
     color:#16fa16;
+    font-size: 2em;
+    font-family: "Rye", serif;
+    margin-top: 10px;
 }
 h4 {
  color:#31a1fd;
+
 }
 main section {
     text-align: center;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
 }
-
+main section img {
+    box-sizing: border-box;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin:200px 0;
+}
+.card-img {
+    border: 10px solid #0b750b;
+}
 .book {
     background-color: #0b750b; 
     color:#ffffff;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .book:hover {
     background-color: #c8ff00;
@@ -68,20 +107,30 @@ main section {
 }
 
 .msg {
-    background-color: #1d6097;
+    background-color: #0b750b;
+    padding: 35px;
 }
 .msg h2 {
-    background-color:#000000;
-    color:#1d6097;
+    background-color:#0b750b;
+    color:#16fa16;
+
 }
 .msg p {
-    color:#000000;
+    color:#16fa16;
+    font-size: .8em;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
+    padding-bottom: 15px;
 }
 
 .join {
     background-color: #1d6097;
     color:#ffffff;
     text-decoration: none;
+    font-size: 18px;
+    font-family: Rubik, Lato, Helvetica, sans-serif;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .join:hover {
     background-color: #1482dd;
@@ -92,6 +141,9 @@ main section {
 footer {
     background-color: #0b750b;
     color: #16fa16;
+    padding: 25px 50px;
+    margin-top: 200px;
+
 }
 footer p {
     font-size: 1.2em;
@@ -106,4 +158,7 @@ footer a {
 footer a:hover {
     background-color:#00ccff;
     color: #ffffff;
+}
+footer .social img {
+padding-top: 15px;
 }
