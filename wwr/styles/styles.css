@@ -245,7 +245,9 @@ padding-top: 15px;
     border-radius: 10px;
 }
 #hero-msg2 {
-    grid-column: 6/9;
+    grid-column: 5/10;
+    grid-row: 1/2;
+    padding: 10px 30px;
  
 }
 #hero-msg2 h1 {
