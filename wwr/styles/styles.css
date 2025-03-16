@@ -288,8 +288,6 @@ padding-top: 15px;
     font-size: 18px;
     text-align: left;
 }
-
-
 .book2 {
     background-color: #0b750b; 
     color:#ffffff;
@@ -304,6 +302,8 @@ padding-top: 15px;
     background-color: #00ff00;
     color:#000000
 }
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -342,6 +342,33 @@ padding-top: 15px;
         width: 80%;
         display: block;
         margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+
+    #hero2, .home-grid2 {
+        display: block;
+        height: auto;
+        margin-bottom: 0px;
+        background-color: #1d6097;
+        background-image: none;
+    }
+    #hero2 {
+        margin-top: 0;
+    }
+    #hero-msg2 {
+        margin-top: 0;
+    }
+    .home-title2 {
+        font-size: 25px;
+    }
+    .purchase-card, .purchase-card2, .purchase-card3, .purchase-card4 { 
+        margin: 50px auto;
+        width: 40%;
+    }
+    .purchase-card h4, .purchase-card2 h4, .purchase-card3 h4, .purchase-card4 h4 {
+        text-align: center;
     }
     footer {
         margin-top: 25px;
