@@ -231,7 +231,7 @@ padding-top: 15px;
 }
 .home-grid2 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     background-image: url(styleimage/heroimg2.jpg);
     margin-bottom: -200px;
@@ -245,7 +245,7 @@ padding-top: 15px;
     border-radius: 10px;
 }
 #hero-msg2 {
-    grid-column: 5/10;
+    grid-column: 6/13;
     grid-row: 1/2;
     padding: 10px 30px;
  
@@ -254,16 +254,16 @@ padding-top: 15px;
     text-align: center;
 } 
 .purchase-card {
-    grid-column: 2/4;
+    grid-column: 2/5;
 }
 .purchase-card2 {
-    grid-column: 5/7;
+    grid-column: 6/9;
 }
 .purchase-card3 {
-    grid-column: 8/10;
+    grid-column: 10/13;
 }
 .purchase-card4 {
-    grid-column: 11/13;
+    grid-column: 14/17;
 }
 
 .purchase-card, .purchase-card2, .purchase-card3, .purchase-card4 {
