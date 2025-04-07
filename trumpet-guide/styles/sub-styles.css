@@ -1,0 +1,118 @@
+div { 
+    max-width: 1600px;  
+}
+#content {
+    margin: 0px;
+}
+/*fonts */
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Rye&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Rye&family=UnifrakturMaguntia&display=swap');
+
+/* Nav Bar */
+header {
+    background-color: rgb(251, 243, 161);
+    position:fixed;
+    display: grid;
+    top:0;
+    left: 0;
+    right: 0;
+    z-index:1030;
+}
+.logo {
+    height:45px;
+    margin-top: 25px;
+    border-bottom: 10px solid #D4AC0D;
+    margin-bottom:-5px;
+    border-radius: 10px;
+    padding-bottom:10px;
+    padding-left: 20px;
+    padding-right:20px;
+
+}
+.main-logo {
+    width: 50px;
+    border: 10px solid rgba(212,172,13);
+    border-radius: 10px;
+    margin-bottom: -5px;
+    padding:10px;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    text-align:justify; 
+}
+nav a {
+    background-color: rgb(214, 191, 99);
+    border-radius: 10px;
+}
+nav a:hover {
+    filter:invert(1);
+    color:#ffffff;
+    border-radius: 10px;
+}
+
+/* body */
+a{
+    text-decoration:none;
+}
+body {
+    margin-top:90px;
+    background-color: rgb(251, 243, 161);
+    margin-left:0;
+    margin-right:0;
+}
+h1 {
+    text-align: center;
+}
+/*overlay*/
+.container {
+    position: relative;
+    width: 50%;
+  }
+  .image {
+    display: flex;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(214, 191, 99);
+  }
+  .container:hover .overlay {
+    opacity: 1;
+  }
+  .text {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*body2*/
+
+/* footer */
+footer {
+    border-radius: 10px;
+    border: 10px dotted #D4AC0D;
+    background-color: rgb(214, 191, 99);
+}
+P {
+text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
