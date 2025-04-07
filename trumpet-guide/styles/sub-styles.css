@@ -60,21 +60,27 @@ a{
 body {
     margin-top:90px;
     background-color: rgb(251, 243, 161);
-    margin-left:0;
-    margin-right:0;
+    
 }
 h1 {
     text-align: center;
+    background-color: rgb(214, 191, 99);
+    padding: 10px;
 }
 /*overlay*/
 .container {
     position: relative;
-    width: 50%;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
   .image {
     display: flex;
     width: 100%;
     height: auto;
+    border-radius: 100px;
+    box-shadow: 5px 5px 10px #000000;
   }
   .overlay {
     position: absolute;
@@ -87,6 +93,7 @@ h1 {
     opacity: 0;
     transition: .5s ease;
     background-color: rgb(214, 191, 99);
+    border-radius: 100px;
   }
   .container:hover .overlay {
     opacity: 1;
@@ -101,15 +108,36 @@ h1 {
     text-align: center;
   }
 /*body2*/
-
+p {
+    background: rgb(214, 191, 99);
+    font-size: 18px;
+    width:60%;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #000000;
+    padding: 10px;
+}
 /* footer */
 footer {
     border-radius: 10px;
     border: 10px dotted #D4AC0D;
     background-color: rgb(214, 191, 99);
 }
-P {
+h6, h5 {
 text-align: center;
+font-size: 16px;
+text-decoration:solid none;
+}
+h5 a {
+    color:#000000;
+    text-decoration:underline;
+}
+h5 a:hover {
+    color: #D4AC0D;
+    background-color:black;
+    padding: 5px;
+    border-radius:10px;
+    text-decoration:none;
 }
 a {
     text-decoration: none;
